@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+    padding: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.829);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: flex;
+    height: 54px;
+    display: flex;
+    /* border: 2px solid white; */
+}
+.logohome{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    width: 10%;
+}
+.home{
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.281);
+    padding: 5px;
+    border-radius: 60px;
+}
+.searchbox{
+    /* border: 2px solid green; */
+    width: 400px;
+    margin: 2px;
+    background-color: rgba(128, 128, 128, 0.281);
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* justify-content: ; */
+}
+.label{
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.521);
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+.psd{
+    font-family: sans-serif;
+    display: flex;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 6px;
+    font-size: 18px;
+    font-weight: 550;
+    /* letter-spacing: 0px; */
+}
+.ia{
+    font-family: sans-serif;
+    display: flex;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 6px;
+    font-size: 18px;
+    font-weight: 550;
+    /* letter-spacing: 0px; */
+}
+.sl{
+    font-family: sans-serif;
+    display: flex;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 6px;
+    font-size: 16px;
+    font-weight: 550;
+    /* letter-spacing: 0px; */
+}
+.l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 32px;
+    /* color: black; */
+}
+.l div{
+    color: black;
+}
