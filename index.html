@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify - Web Player: Music for everyone</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utility.css">
+    <!-- <link rel="stylesheet" href="utility.css"> -->
 </head>
 
 <body>
@@ -67,37 +67,73 @@
         <div class="sidebar">
             <div class="library f">
                 <div class="info">Your Libraries</div>
-                <div class="plus f j"><div>+</div></div>
+                <div class="plus f j">
+                    <div>+</div>
+                </div>
+            </div>
+            <div class="songlist">
+                <ul class="ok">
+
+                </ul>
             </div>
         </div>
         <div class="playlists">
             <div class="title">Trending songs</div>
             <div class="songs f">
                 <div class="songbox">
-                    <div class="thumbnail"><img height="175px" width="175px" src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396" alt="thumbnail"></div>
-                    <div class="name"><div>Bairan</div></div>
-                    <div class="composer"><div>Banjaaree</div></div>
+                    <div class="thumbnail"><img height="175px" width="175px"
+                            src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396" alt="thumbnail">
+                    </div>
+                    <div class="name">
+                        <div>Bairan</div>
+                    </div>
+                    <div class="composer">
+                        <div>Banjaaree</div>
+                    </div>
                 </div>
                 <div class="songbox">
-                    <div class="thumbnail"><img height="175px" width="175px" src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396" alt="thumbnail"></div>
-                    <div class="name"><div>Bairan</div></div>
-                    <div class="composer"><div>Banjaaree</div></div>
+                    <div class="thumbnail"><img height="175px" width="175px"
+                            src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396" alt="thumbnail">
+                    </div>
+                    <div class="name">
+                        <div>Bairan</div>
+                    </div>
+                    <div class="composer">
+                        <div>Banjaaree</div>
+                    </div>
                 </div>
                 <div class="songbox">
-                    <div class="thumbnail"><img height="175px" width="175px" src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396" alt="thumbnail"></div>
-                    <div class="name"><div>Bairan</div></div>
-                    <div class="composer"><div>Banjaaree</div></div>
+                    <div class="thumbnail"><img height="175px" width="175px"
+                            src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396" alt="thumbnail">
+                    </div>
+                    <div class="name">
+                        <div>Bairan</div>
+                    </div>
+                    <div class="composer">
+                        <div>Banjaaree</div>
+                    </div>
                 </div>
             </div>
-            <div class="playbar f j a">
-                <div class="controls f a g2">
-                    <div class="pre"><img height="30px" width="30px" src="previous-svgrepo-com.svg" alt="previous"></div>
-                    <div class="play"><img src="play-svgrepo-com.svg" height="30px" width="30px" alt="play"></div>
-                    <div class="next"><img src="next-svgrepo-com (1).svg" alt="next" height="26px" width="26px" ></div>
+            <div class="playbar">
+                <div class="up f">
+                    <div class="songname1"></div>
+                    <div class="controls f a g2">
+                        <div id="pre" class="pre"><img height="30px" width="30px" src="previous-svgrepo-com.svg"
+                                alt="previous"></div>
+                        <div class="play"><img id="play" src="play-svgrepo-com.svg" height="30px" width="30px"
+                                alt="play"></div>
+                        <div id="next" class="next"><img src="next-svgrepo-com (1).svg" alt="next" height="26px"
+                                width="26px"></div>
+                    </div>
+                    <div class="duration"></div>
+                </div>
+                <div class="soundbar">
+                    <div class="circle"></div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
