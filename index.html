@@ -12,10 +12,12 @@
 <body>
     <div class="nav">
         <div class="stsection f a">
+            <div class="hamburger"><img id="ham" height="28px" width="28px" src="hamburger.svg" alt="hamburger"></div>
             <div class="logohome">
                 <div class="logo"><img src="logo.svg" alt="logo"></div>
                 <div class="home"><img height="28px" width="28px" src="home.svg" alt="home"></div>
             </div>
+            <div class="search"><img src="icon.svg" height="28px" width="28px" alt=""></div>
             <div class="searchbox">
                 <div>
                     <div class="icon">
@@ -79,10 +81,10 @@
         </div>
         <div class="playlists">
             <div class="title">Trending songs</div>
-            <div class="songs f">
+            <div class="songs">
                 <div class="songbox">
-                    <div class="thumbnail"><img height="175px" width="175px"
-                            src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396" alt="thumbnail">
+                    <div class="thumbnail"><img src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396"
+                            alt="thumbnail">
                     </div>
                     <div class="name">
                         <div>Bairan</div>
@@ -92,8 +94,8 @@
                     </div>
                 </div>
                 <div class="songbox">
-                    <div class="thumbnail"><img height="175px" width="175px"
-                            src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396" alt="thumbnail">
+                    <div class="thumbnail"><img src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396"
+                            alt="thumbnail">
                     </div>
                     <div class="name">
                         <div>Bairan</div>
@@ -103,8 +105,74 @@
                     </div>
                 </div>
                 <div class="songbox">
-                    <div class="thumbnail"><img height="175px" width="175px"
-                            src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396" alt="thumbnail">
+                    <div class="thumbnail"><img src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396"
+                            alt="thumbnail">
+                    </div>
+                    <div class="name">
+                        <div>Bairan</div>
+                    </div>
+                    <div class="composer">
+                        <div>Banjaaree</div>
+                    </div>
+                </div>
+                <div class="songbox">
+                    <div class="thumbnail"><img src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396"
+                            alt="thumbnail">
+                    </div>
+                    <div class="name">
+                        <div>Bairan</div>
+                    </div>
+                    <div class="composer">
+                        <div>Banjaaree</div>
+                    </div>
+                </div>
+                <div class="songbox">
+                    <div class="thumbnail"><img src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396"
+                            alt="thumbnail">
+                    </div>
+                    <div class="name">
+                        <div>Bairan</div>
+                    </div>
+                    <div class="composer">
+                        <div>Banjaaree</div>
+                    </div>
+                </div>
+                <div class="songbox">
+                    <div class="thumbnail"><img src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396"
+                            alt="thumbnail">
+                    </div>
+                    <div class="name">
+                        <div>Bairan</div>
+                    </div>
+                    <div class="composer">
+                        <div>Banjaaree</div>
+                    </div>
+                </div>
+                <div class="songbox">
+                    <div class="thumbnail"><img src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396"
+                            alt="thumbnail">
+                    </div>
+                    <div class="name">
+                        <div>Bairan</div>
+                    </div>
+                    <div class="composer">
+                        <div>Banjaaree</div>
+                    </div>
+                </div>
+                <div class="songbox">
+                    <div class="thumbnail"><img src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396"
+                            alt="thumbnail">
+                    </div>
+                    <div class="name">
+                        <div>Bairan</div>
+                    </div>
+                    <div class="composer">
+                        <div>Banjaaree</div>
+                    </div>
+                </div>
+                <div class="songbox">
+                    <div class="thumbnail"><img src="https://i.scdn.co/image/ab67616d00001e02cdce9a38222807fa703b4396"
+                            alt="thumbnail">
                     </div>
                     <div class="name">
                         <div>Bairan</div>
@@ -115,7 +183,7 @@
                 </div>
             </div>
             <div class="playbar">
-                <div class="up f">
+                <div class="up">
                     <div class="songname1"></div>
                     <div class="controls f a g2">
                         <div id="pre" class="pre"><img height="30px" width="30px" src="previous-svgrepo-com.svg"
@@ -125,6 +193,10 @@
                         <div id="next" class="next"><img src="next-svgrepo-com (1).svg" alt="next" height="26px"
                                 width="26px"></div>
                     </div>
+                    <div class="volumeControl">
+                        <img id="volumeIcon" src="sound.svg" alt="volume">
+                        <input type="range" id="volumeBar" min="0" max="100" value="100">
+                    </div>
                     <div class="duration"></div>
                 </div>
                 <div class="soundbar">
@@ -133,6 +205,7 @@
             </div>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 
